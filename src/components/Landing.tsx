@@ -798,20 +798,6 @@ function Footer() {
               International Immigration Attorneys & Legal Solutions. Asesoría legal migratoria
               profesional, ética y confiable a nivel global.
             </p>
-            <div className="flex gap-3">
-              {([
-                ["facebook", Facebook], ["instagram", Instagram], ["linkedin", Linkedin],
-                ["twitter", Twitter], ["youtube", Youtube],
-              ] as const).map(([key, Icon]) => {
-                const url = siteConfig.social[key];
-                if (!url) return null;
-                return (
-                  <a key={key} href={url} target="_blank" rel="noopener noreferrer" aria-label={key} className="size-10 rounded-full glass grid place-items-center hover:bg-gold hover:text-navy-deep transition-colors">
-                    <Icon className="size-4" />
-                  </a>
-                );
-              })}
-            </div>
           </div>
 
           <FooterCol title="Empresa" links={["Inicio", "Quiénes Somos", "Servicios", "Países"]} />
