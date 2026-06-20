@@ -22,7 +22,7 @@ export const siteConfig = {
   // --- CONTACTO ---
   contact: {
     phone: "+1 854 209 5305",               // 👈 TELÉFONO
-    email: "johnnyolivier405@hotmail.com", // 👈 CORREO DE DESTINO DEL FORMULARIO
+    email: "info@globalimmigrationadvocates.com", // 👈 CORREO DE DESTINO DEL FORMULARIO
     whatsapp: "18542095305",                // 👈 WHATSAPP (solo números, con código país)
     address: "Estados Unidos\nFlorida · Texas · California · New York\nSucursales en varios estados", // 👈 DIRECCIÓN / SUCURSALES
     hours: "Lun–Vie: 9:00 AM – 6:00 PM",   // 👈 HORARIO
