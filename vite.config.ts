@@ -15,4 +15,13 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  vite: {
+    ssr: {
+      external: [
+        'framer-motion',
+        '@tanstack/react-query',
+        '@tanstack/react-router',
+      ],
+    },
+  },
 });
